@@ -1,0 +1,520 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	      "path" : "pages/tabbar/index",
+	      "style" :                                                                                    
+	      {
+	          "enablePullDownRefresh": false,
+						"navigationStyle":"custom"
+	      }
+	      
+	  },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+	   {
+	   	"path": "pages/index/hot",
+	   	"style": {
+	   		"navigationBarTitleText": "刀客源码网 www.dkewl.com"
+	   	}
+	   }
+        ,{
+            "path" : "pages/index/help",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新手帮助",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/flow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发货流程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/more",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "欢乐拆盒",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        }
+				,{
+				    "path" : "pages/tabbar/classify",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+				    }
+				    
+				}
+        ,{
+            "path" : "pages/login/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        },
+				{
+				    "path" : "pages/login/login",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "登录",
+				        "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+				    }
+				    
+				},
+				{
+				    "path" : "pages/login/phoneLogin",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+				    }
+				    
+				}
+        ,{
+            "path" : "pages/tabbar/box",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的盒柜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+	,{
+		    "path" : "pages/tabbar/smr",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "商务合作",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/tabbar/shai",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "晒图",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/tabbar/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/addSite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/coll",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/applyFaHuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请发货",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "开箱记录",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/order-details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/logistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/deposit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/balance",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的余额",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/out",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "转出到钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/alipay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付宝绑定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/WeChat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "微信绑定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/wallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充值",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        }
+				,{
+				    "path" : "pages/login/forgetPassword",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "忘记密码",
+				        "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+				    }
+				    
+				},
+				{
+				    "path" : "pages/login/register",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "注册账号",
+				        "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+				    }
+				    
+				}
+        ,{
+            "path" : "pages/index/shopList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客服咨询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/newBox",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "最新开箱",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "推荐盲盒",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/bindPhone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/myBox",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的盒柜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/records",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "开盒记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/smr/smr",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/smr/smr",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+		"subPackages":[{
+			"root":"pagesA",
+			"pages":[
+				{
+				    "path" : "pages/invite",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "推广中心",
+				        "enablePullDownRefresh": false,
+                "backgroundColor": "#F5F6FA",
+                "navigationStyle":"custom"
+				    }
+				    
+				}
+			    ,{
+                    "path" : "pages/camera",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+										"navigationStyle":"custom"
+                }
+                
+                }
+                ,{
+                    "path" : "pages/user",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "用户协议",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "pages/privacy",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "隐私协议",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "pages/buyer",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "买家须知",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "pages/bannerMessage",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},{
+			"pages":[{
+                    "path" : "pages/server",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "联系客服",
+										"navigationStyle":"custom",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ],
+			"root":"pagesB"
+		}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "欢乐拆盒",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"backgroundColor":"#FFFFFF",
+		"color":"#333333",
+		"selectedColor":"#F6AF32",
+		"list":[
+			{
+				"iconPath":"static/image/tabbar/shouyeweixuanzhong@2x.png",
+				"selectedIconPath":"static/image/tabbar/shouyexuanzhong@2x.png",
+				"pagePath":"pages/tabbar/index",
+				"text":"首页"
+			},
+			{
+				"iconPath":"static/image/tabbar/huishouweixuanzhong@2x.png",
+				"selectedIconPath":"static/image/tabbar/fenleixuanzhong@2x.png",
+				"pagePath":"pages/tabbar/box",
+				"text":"盒柜"
+			},
+			
+			
+			{
+				"iconPath":"static/image/tabbar/fenleiweixuanzhong@2x.png",
+				"selectedIconPath":"static/image/tabbar/fenleiweixuanzhong@1x.png",
+				"pagePath":"pages/tabbar/shai",
+				"text":"晒图"
+			},
+			
+			
+			
+			{
+				"iconPath":"static/image/tabbar/wodeweixuanzhong@2x.png",
+				"selectedIconPath":"static/image/tabbar/wodeyixuanzhong@2x.png",
+				"pagePath":"pages/tabbar/me",
+				"text":"我的"
+			},
+			
+			
+			{
+				"iconPath":"static/image/tabbar/w5.png",
+				"selectedIconPath":"static/image/tabbar/w2.png",
+				"pagePath":"pages/tabbar/smr",
+				"text":"商务合作"
+			}
+		]
+	}
+}
